@@ -18,7 +18,7 @@
       "description": "Defines the location of your MySQL temp directory. Sets the 'tmpdir' variable in the MySQL config file. Example: /tmp"
     },
     "db_mysql/log_bin": {
-      "default": "/mnt/ephemeral/mysql-binlogs/mysql-bin",
+      "default": "/mnt/ephemeral/mysql-binlogs/mysql-binamit",
       "calculated": false,
       "recipes": [
         "db_mysql::default_5_1",
